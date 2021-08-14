@@ -24,6 +24,8 @@ class UI(QWidget):
         print('clicked saveNote')   
         noteItem = self.noteItem.currentText()
         noteText = self.noteText.toPlainText()
+        self.noteText.setPlainText("")
+
         theFile = noteItem + '.txt'
         import os.path
         if not os.path.exists(theFile):
