@@ -7,7 +7,8 @@ Python 3.x
 
 
 # How to
-  - Update the file __items.txt__ with tasks or projects you want to keep notes on
+  - Rename the file __items-example.txt__ to __items.txt__ 
+  - Add a project/task on a new line in __items.txt__ 
   - Run the project using "__python mynotes.py__" 
   - Select the project from the dropdown, add a quick note and press __Save Note__
   - The note is saved in a file called __Project name.txt__ with date/time and note; newest notes are aded to the top
